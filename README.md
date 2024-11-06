@@ -66,7 +66,6 @@ This project simplifies car sales by offering a range of vehicles, scheduling te
    - Update the database connection configuration in your Java files to use Oracle’s JDBC connection string. For example:
 
    ```java
-   // Example for Oracle DB connection
    Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe", "username", "password");
    
 ### 8. Usage
